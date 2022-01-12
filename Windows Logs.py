@@ -290,6 +290,19 @@ def continuous():
 
 
 ########################################################################################################################
+# Check program is running in correct conditions
+
+# Check OS
+windows()
+
+# Check if user is administrator
+if is_admin():
+    pass
+else:
+    print("Please run this program as administrator.")
+    exit(7)
+
+########################################################################################################################
 # User Inputs
 
 while True:
@@ -327,16 +340,6 @@ else:
     severity = "Low"
 
 ########################################################################################################################
-
-# Check OS
-windows()
-
-# Check if user is administrator
-if is_admin():
-    pass
-else:
-    print("Please run this program as administrator.")
-    exit(7)
 
 # Run correct function according to user input.
 while True:
