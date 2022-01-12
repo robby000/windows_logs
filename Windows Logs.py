@@ -88,7 +88,7 @@ try:
                     security_events_low[int(key)] = val
                     for key, value in security_events_low.items():
                         security_events_low[key] = value.rstrip()
-except FileNotFoundError:  # Deal with fil not found error
+except FileNotFoundError:  # Deal with file not found error
     print("Text file not found")
     exit(2)
 
