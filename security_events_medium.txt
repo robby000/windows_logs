@@ -1,0 +1,75 @@
+4621:Administrator recovered system from CrashOnAuditFail. Users who are not administrators will now be allowed to log on. Some auditable activity might not have been recorded.
+4675:SIDs were filtered.
+4692:Backup of data protection master key was attempted.
+4693:Recovery of data protection master key was attempted.
+4706:A new trust was created to a domain.
+4713:Kerberos policy was changed.
+4714:Encrypted data recovery policy was changed.
+4715:The audit policy (SACL) on an object was changed.
+4716:Trusted domain information was modified.
+4724:An attempt was made to reset an account's password.
+4727:A security-enabled global group was created.
+4735:A security-enabled local group was changed.
+4737:A security-enabled global group was changed.
+4739:Domain Policy was changed.
+4754:A security-enabled universal group was created.
+4755:A security-enabled universal group was changed.
+4764:A security-disabled group was deleted
+4764:A group's type was changed.
+4780:The ACL was set on accounts which are members of administrators groups.
+4816:RPC detected an integrity violation while decrypting an incoming message.
+4865:A trusted forest information entry was added.
+4866:A trusted forest information entry was removed.
+4867:A trusted forest information entry was modified.
+4868:The certificate manager denied a pending certificate request.
+4870:Certificate Services revoked a certificate.
+4882:The security permissions for Certificate Services changed.
+4885:The audit filter for Certificate Services changed.
+4890:The certificate manager settings for Certificate Services changed.
+4892:A property of Certificate Services changed.
+4896:One or more rows have been deleted from the certificate database.
+4906:The CrashOnAuditFail value has changed.
+4907:Auditing settings on object were changed.
+4908:Special Groups Logon table modified.
+4912:Per User Audit Policy was changed.
+4960:IPsec dropped an inbound packet that failed an integrity check. If this problem persists, it could indicate a network issue or that packets are being modified in transit to this computer. Verify that the packets sent from the remote computer are the same as those received by this computer. This error might also indicate interoperability problems with other IPsec implementations.
+4961:IPsec dropped an inbound packet that failed a replay check. If this problem persists, it could indicate a replay attack against this computer.
+4962:IPsec dropped an inbound packet that failed a replay check. The inbound packet had too low a sequence number to ensure it was not a replay.
+4963:IPsec dropped an inbound clear text packet that should have been secured. This is usually due to the remote computer changing its IPsec policy without informing this computer. This could also be a spoofing attack attempt.
+4965:IPsec received a packet from a remote computer with an incorrect Security Parameter Index (SPI). This is usually caused by malfunctioning hardware that is corrupting packets. If these errors persist, verify that the packets sent from the remote computer are the same as those received by this computer. This error may also indicate interoperability problems with other IPsec implementations. In that case, if connectivity is not impeded, then these events can be ignored.
+4976:During Main Mode negotiation, IPsec received an invalid negotiation packet. If this problem persists, it could indicate a network issue or an attempt to modify or replay this negotiation.
+4977:During Quick Mode negotiation, IPsec received an invalid negotiation packet. If this problem persists, it could indicate a network issue or an attempt to modify or replay this negotiation.
+4978:During Extended Mode negotiation, IPsec received an invalid negotiation packet. If this problem persists, it could indicate a network issue or an attempt to modify or replay this negotiation.
+4983:An IPsec Extended Mode negotiation failed. The corresponding Main Mode security association has been deleted.
+4984:An IPsec Extended Mode negotiation failed. The corresponding Main Mode security association has been deleted.
+5027:The Windows Firewall Service was unable to retrieve the security policy from the local storage. The service will continue enforcing the current policy.
+5028:The Windows Firewall Service was unable to parse the new security policy. The service will continue with currently enforced policy.
+5029:The Windows Firewall Service failed to initialize the driver. The service will continue to enforce the current policy.
+5030:The Windows Firewall Service failed to start.
+5035:The Windows Firewall Driver failed to start.
+5037:The Windows Firewall Driver detected critical runtime error. Terminating.
+5038:Code integrity determined that the image hash of a file is not valid. The file could be corrupt due to unauthorized modification or the invalid hash could indicate a potential disk device error.
+5120:OCSP Responder Service Started
+5121:OCSP Responder Service Stopped
+5122:A configuration entry changed in OCSP Responder Service
+5123:A configuration entry changed in OCSP Responder Service
+5376:Credential Manager credentials were backed up.
+5377:Credential Manager credentials were restored from a backup.
+5453:An IPsec negotiation with a remote computer failed because the IKE and AuthIP IPsec Keying Modules (IKEEXT) service is not started.
+5480:IPsec Services failed to get the complete list of network interfaces on the computer. This poses a potential security risk because some of the network interfaces may not get the protection provided by the applied IPsec filters. Use the IP Security Monitor snap-in to diagnose the problem.
+5483:IPsec Services failed to initialize RPC server. IPsec Services could not be started.
+5484:IPsec Services has experienced a critical failure and has been shut down. The shutdown of IPsec Services can put the computer at greater risk of network attack or expose the computer to potential security risks.
+5485:IPsec Services failed to process some IPsec filters on a plug-and-play event for network interfaces. This poses a potential security risk because some of the network interfaces may not get the protection provided by the applied IPsec filters. Use the IP Security Monitor snap-in to diagnose the problem.
+6145:One or more errors occurred while processing security policy in the Group Policy objects.
+6273:Network Policy Server denied access to a user.
+6274:Network Policy Server discarded the request for a user.
+6275:Network Policy Server discarded the accounting request for a user.
+6276:Network Policy Server quarantined a user.
+6277:Network Policy Server granted access to a user but put it on probation because the host did not meet the defined health policy.
+6278:Network Policy Server granted full access to a user because the host met the defined health policy.
+6279:Network Policy Server locked the user account due to repeated failed authentication attempts.
+6280:Network Policy Server unlocked the user account.
+24586:An error was encountered converting volume
+24592:An attempt to automatically restart conversion on volume %2 failed.
+24593:Metadata write, Volume %2 returning errors while trying to modify metadata. If failures continue, decrypt volume
+24594:Metadata rebuild, An attempt to write a copy of metadata on volume %2 failed and may appear as disk corruption. If failures continue, decrypt volume.

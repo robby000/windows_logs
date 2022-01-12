@@ -1,0 +1,10 @@
+4618:A monitored security event pattern has occurred.
+4649:A replay attack was detected May be a harmless false positive due to misconfiguration error.
+4719:System audit policy was changed.
+4765:SID History was added to an account.
+4766:An attempt to add SID History to an account failed.
+4794:An attempt was made to set the Directory Services Restore Mode.
+4897:Role separation enabled
+4964:Special groups have been assigned to a new logon.
+5124:A security setting was updated on the OCSP Responder Service
+1102:The audit log was cleared
